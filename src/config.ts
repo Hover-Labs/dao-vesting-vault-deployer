@@ -28,7 +28,7 @@ export const KOLIBRI_CONFIG: KolibriConfig = {
 
 export const MIGRATION_CONFIG = {
   // Recipient of vesting
-  recipient: "tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb",
+  recipient: "tz1YmV5mHeu45QpQAsZ7WfwvrmEtEGnQy3GJ",
 
   // What token is vesting
   // Use CONTRACTS.<NETWORK>.TOKEN for kUSD
@@ -41,8 +41,8 @@ export const MIGRATION_CONFIG = {
   // Amount of blocks to vest over
   // NOTE: When this script was written, block times are 30s. The Tezos Network may upgrade to have shorter block times
   //       which means that vesting may occur faster than this value suggests.
-  vestingBlocks: new BigNumber(30 * (2 * 60 * 24)), // 1 month @ 30s block time
+  vestingBlocks: new BigNumber(3 * 30 * (2 * 60 * 24)), // 1 month @ 30s block time
 
   // Block at which vesting starts
-  vestingStartBlock: new BigNumber(1000)
+  vestingStartBlock: new BigNumber(2276328)
 }

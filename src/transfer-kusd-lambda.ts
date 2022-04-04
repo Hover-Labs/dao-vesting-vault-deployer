@@ -16,7 +16,7 @@ const main = async (destination: string) => {
   console.log(`Amount: ${MIGRATION_CONFIG.vestingAmount.dividedBy(CONSTANTS.MANTISSA).toFixed()} kUSD`)
   console.log(`Destination: ${destination}`)
   console.log(`Developer Fund: ${devFundContract}`)
-  console.log(`CommDeveloperunity Fund Break Glass: ${devFundBreakGlassContract}`)
+  console.log(`Developer Fund Break Glass: ${devFundBreakGlassContract}`)
   console.log()
 
 
