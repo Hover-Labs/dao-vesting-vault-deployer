@@ -4,13 +4,13 @@ import BigNumber from "bignumber.js";
 
 export const NETWORK_CONFIG: NetworkConfig = {
   // Human readable of the network
-  name: 'Sandboxnet',
+  name: 'Mainnet',
 
   // A tezos node that accepts RPCs
-  tezosNodeUrl: 'https://sandbox.hover.engineering/',
+  tezosNodeUrl: 'https://mainnet.smartpy.io',
 
   // Required confirmations
-  betterCallDevUrl: 'https://bcd.hover.engineering/v1',
+  betterCallDevUrl: 'https://api.better-call.dev/v1',
   requiredConfirmations: 2,
   maxConfirmationPollingRetries: 10,
   operationDelaySecs: 10,
@@ -18,7 +18,7 @@ export const NETWORK_CONFIG: NetworkConfig = {
 
 export const KOLIBRI_CONFIG: KolibriConfig = {
   // Contracts to use. You probably want MAINNET
-  contracts: CONTRACTS.SANDBOX,
+  contracts: CONTRACTS.MAIN,
 
   // These parameters have no effect, can be ignored
   escrowAmount: 3000000000000000000000,
