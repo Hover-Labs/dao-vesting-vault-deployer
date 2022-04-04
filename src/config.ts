@@ -33,7 +33,7 @@ export const MIGRATION_CONFIG = {
   // What token is vesting
   // Use CONTRACTS.<NETWORK>.TOKEN for kUSD
   // Use CONTRACTS.<NETWORK>.DAO_TOKEN for kDAO
-  token: CONTRACTS.SANDBOX.TOKEN, // kUSD
+  token: CONTRACTS.MAIN.TOKEN, // kUSD
 
   // Amount of tokens to vest
   vestingAmount: new BigNumber(3000).times(new BigNumber(CONSTANTS.MANTISSA)),
